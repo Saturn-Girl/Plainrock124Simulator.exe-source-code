@@ -1,0 +1,75 @@
+{
+	"name": "Event sheet 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite14",
+					"sid": 395735950886289,
+					"parameters": {
+						"object": "Sprite13"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 326421894540233,
+					"parameters": {
+						"layout": "MacOS"
+					}
+				}
+			],
+			"sid": 550738848898422
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite15",
+					"sid": 820388974304554,
+					"parameters": {
+						"object": "Sprite13"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 604737842514237,
+					"parameters": {
+						"layout": "MacOS"
+					}
+				}
+			],
+			"sid": 659745414352938
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button6",
+					"sid": 508156271313922
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 550757283622339,
+					"parameters": {
+						"layout": "Game.app"
+					}
+				}
+			],
+			"sid": 203027701797835
+		}
+	],
+	"sid": 416042611175023
+}

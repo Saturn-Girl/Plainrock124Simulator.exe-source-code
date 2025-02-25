@@ -1,0 +1,74 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 660156378430638,
+					"parameters": {
+						"object": "MacBook"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 996800248284522,
+					"parameters": {
+						"layout": "MacOS"
+					}
+				}
+			],
+			"sid": 117159702470673
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite4",
+					"sid": 155284928795635,
+					"parameters": {
+						"object": "Sprite3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"script": "let HP = 15;\n\nif (HP > 0) {\n    console.log(\"HP 15\");\n}else{\n    console.log(\"let goooo\");\n}\nif (HP < 20) {\n    console.log(\"HP 15\");\n}else{\n    console.log(\"let goooo\");\n}\n"
+				}
+			],
+			"sid": 960186685574435
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite6",
+					"sid": 994242732158666,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 938265291579390,
+					"parameters": {
+						"layout": "BossFight-1"
+					}
+				}
+			],
+			"sid": 799985631986492
+		}
+	],
+	"sid": 552619908891191
+}

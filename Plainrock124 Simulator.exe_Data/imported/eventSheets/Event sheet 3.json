@@ -1,0 +1,186 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 972883561306156
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Button3",
+					"sid": 428046442734526,
+					"parameters": {
+						"text": "\"Continue\""
+					}
+				}
+			],
+			"sid": 664813155133103
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button3",
+					"sid": 219493593472274
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 772909605694983,
+					"parameters": {
+						"layout": "BossFight-1"
+					}
+				}
+			],
+			"sid": 957569862073835
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 377687536631811
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Button4",
+					"sid": 899710094752678,
+					"parameters": {
+						"text": "\"exit\""
+					}
+				}
+			],
+			"sid": 369950454501910
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button4",
+					"sid": 564466360621613
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 707241740808063,
+					"parameters": {
+						"layout": "Plainrock124"
+					}
+				}
+			],
+			"sid": 302939913809366
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite8",
+					"sid": 523845256942554,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Text2",
+					"sid": 501462173492799,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 155260394874543
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite8",
+					"sid": 298190656606734,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 464827817022499,
+					"parameters": {
+						"layout": "You lose"
+					}
+				}
+			],
+			"sid": 314181415606294
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite10",
+					"sid": 324398005375011,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 144516891027934,
+					"parameters": {
+						"layout": "BossFight-2"
+					}
+				}
+			],
+			"sid": 511258475072236
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite8",
+					"sid": 294632772488632,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 203591839397460,
+					"parameters": {
+						"layout": "BossFight-2"
+					}
+				}
+			],
+			"sid": 654640732229880
+		}
+	],
+	"sid": 463395511264925
+}

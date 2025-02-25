@@ -1,0 +1,94 @@
+{
+	"name": "MacOS",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 837544796545614
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Button2",
+					"sid": 559949046925660,
+					"parameters": {
+						"text": "\"---->\""
+					}
+				}
+			],
+			"sid": 982829350164642
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button2",
+					"sid": 771628512505732
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 464218350389718,
+					"parameters": {
+						"layout": "Plainrock124"
+					}
+				}
+			],
+			"sid": 634320496335829
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 554258859384173
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Button6",
+					"sid": 963648354585423,
+					"parameters": {
+						"text": "\"Game.app\""
+					}
+				}
+			],
+			"sid": 796406932699962
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "app",
+					"sid": 403139928160976
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 198060861908950,
+					"parameters": {
+						"layout": "Game.app"
+					}
+				}
+			],
+			"sid": 202053978081111
+		},
+		{
+			"eventType": "script",
+			"script": "// Game.app.js\n\nlet i = 15;\n\nif (i < 20){\n   console.log(\"i = 15\");\n}\n"
+		}
+	],
+	"sid": 669531141469400
+}

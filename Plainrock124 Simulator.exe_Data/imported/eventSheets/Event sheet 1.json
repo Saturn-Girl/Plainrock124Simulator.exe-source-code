@@ -1,0 +1,52 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button",
+					"sid": 627627445528801
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 709517855628273,
+					"parameters": {
+						"layout": "Plainrock124"
+					}
+				}
+			],
+			"sid": 628521899591465
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 246138705436445
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Button",
+					"sid": 102839562329512,
+					"parameters": {
+						"text": "\"start\""
+					}
+				}
+			],
+			"sid": 474174842889214
+		},
+		{
+			"eventType": "comment",
+			"text": "5x + 4x = 9x"
+		}
+	],
+	"sid": 956860895037623
+}

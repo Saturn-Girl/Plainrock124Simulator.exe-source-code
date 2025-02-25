@@ -1,0 +1,120 @@
+{
+	"name": "CrashScript",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 676791925910718,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 456609348040353,
+					"parameters": {
+						"layout": "You lose"
+					}
+				}
+			],
+			"sid": 943774024201962
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Button5",
+					"sid": 589231621098784
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 356011596707826,
+					"parameters": {
+						"layout": "BossFight-2"
+					}
+				}
+			],
+			"sid": 275390193961875
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 276467863725552
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Button5",
+					"sid": 777757008722825,
+					"parameters": {
+						"text": "\"Done\""
+					}
+				}
+			],
+			"sid": 414792253786120
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 107107946083995,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 218094039425578,
+					"parameters": {
+						"layout": "You lose"
+					}
+				}
+			],
+			"sid": 861198759419336
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite15",
+					"sid": 715071563197733,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 702240669121324,
+					"parameters": {
+						"layout": "MacOS"
+					}
+				}
+			],
+			"sid": 528376242908176
+		}
+	],
+	"sid": 295605556555387
+}

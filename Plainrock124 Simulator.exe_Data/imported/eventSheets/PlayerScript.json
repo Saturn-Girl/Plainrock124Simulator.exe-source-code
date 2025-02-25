@@ -1,0 +1,26 @@
+{
+	"name": "PlayerScript",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 960921782768385,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"type": "script",
+					"script": "console.log('bring up the phone'); "
+				}
+			],
+			"sid": 384373340500242
+		}
+	],
+	"sid": 734438351826268
+}
